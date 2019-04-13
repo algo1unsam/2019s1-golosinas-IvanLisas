@@ -28,13 +28,16 @@ Vale 5 pesos y pesa inicialmente 250 gramos. Su gusto es vainilla. No es libre d
 Al recibir un mordisco pierde peso, en una cantidad que depende del peso actual: si es mayor a 70 gramos pierde el 50 % de su peso, en caso contrario, el 25 %.
 
 #### Chocolatín
-El peso inicial es desconocido, lo asigna el usuario. El precio es de $0,50 por cada gramo de peso inicial. No es libre de gluten. Obviamente, su gusto es chocolate.   
+El peso inicial es desconocido, lo asigna el usuario. 
+El precio es de $0,50 por cada gramo de peso inicial. 
+No es libre de gluten. Obviamente, su gusto es chocolate.   
 Pierde 2 gramos por mordisco.   
 **¡Atención!** El precio es según el _peso inicial_, no debe cambiar con los mordiscos.
 
 #### Golosina bañada
 Se arma a partir de una _golosina de base_. <br>
-El peso inicial es el de la golosina de base más 4 gramos que es lo que pesa el bañado. El precio es el de la golosina de base más 2 pesos. El gusto es el de la golosina de base. 
+El peso inicial es el de la golosina de base más 4 gramos que es lo que pesa el bañado. 
+El precio es el de la golosina de base más 2 pesos. El gusto es el de la golosina de base. 
 De la misma manera, es libre de gluten si lo es su golosina base.   
 Con cada mordisco se da un mordisco a la golosina de base. Además, en el primer mordisco pierde 2 gramos de
 bañado, y en el segundo los otros dos.
