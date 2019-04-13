@@ -2,7 +2,7 @@ import golosinas.*
 
 describe "test de bombon" {
 
-	test "peso inicial" {
+	test "p8eso inicial" {
 		assert.equals(15, bombon.peso())
 	}
 	
