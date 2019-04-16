@@ -4,7 +4,7 @@ object mariano {
 	// para este objeto no damos pistas
 	// definimos algunos métodos para que compile el test
 	
-	var golosinas=[]
+	var golosinas = #{}
 	
 	method comprar(golosina) {
 		golosinas.add(golosina)
@@ -14,17 +14,40 @@ object mariano {
 		golosinas.remove(golosina)
 	}
 	
-	method golosinas() {
-		/* cambiar por la implementacion correcta */ 
+	/*method golosinas() {
+		/* cambiar por la implementacion correcta/
 		return [] 
-	}
+	}*/ 
 	
-	method probarGolosinas() { /* completar */ }
+	method probarGolosinas(){  golosinas.forEach{ golosina=>golosina.mordisco() }}
 	
 	
 	method hayGolosinaSinTACC(){
-		golosinas.findOrElse ({ golosina => golosina.libreGluten()},{true})
-		
+		return  golosinas.any({ golosina => golosina.libreGluten()})
+	}
+	
+	method preciosCuidados(){
+		return  golosinas.all({ golosina => golosina.precio() <= 10})
+	}
+	
+	method golosinaDeSabor(unSabor){
+		return golosinas.find{ golosina=>golosina.sabor()==unSabor}
+	}
+	
+	method golosinasDesabor(unSabor){
+		return golosinas.filter{ golosina=>golosina.sabor()==unSabor}
+	}
+	
+	method sabores(){
+		return {golosinas.map{ golosina=>golosina.sabor() }}.asSet()
+	}
+	
+	method golosinaMasCara(){
+		return golosinas.max{ golosina=>golosina.precio() }
+	}
+	
+	method pesoGolosinas(){
+		return golosinas.sum{ golosina=>golosina.peso() }	
 	}
 }
 
