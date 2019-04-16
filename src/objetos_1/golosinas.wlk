@@ -103,13 +103,6 @@ object golosinaBaniada {
 	method libreGluten() { return golosinaInterior.libreGluten()}	
 }
 
-/* #### Pastilla tutti-frutti
-Pesa inicialmente 5 gramos. 
-La pastilla puede ser libre de gluten o no (se configura). 
-Si es libre de gluten el precio es $7; si no, es de $10.  
-En cada mordisco cambia el sabor, pasa de frutilla a chocolate, 
-de ahí a naranja, de ahí vuelve a frutilla. */
-
 object tuttifrutti {
 	var peso = 5
 	var property libreGluten = false

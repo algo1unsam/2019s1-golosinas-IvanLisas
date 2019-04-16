@@ -9,6 +9,11 @@ object mariano {
 	method comprar(golosina) {
 		golosinas.add(golosina)
 	}
+	
+	method desechar(golosina){
+		golosinas.remove(golosina)
+	}
+	
 	method golosinas() {
 		/* cambiar por la implementacion correcta */ 
 		return [] 
