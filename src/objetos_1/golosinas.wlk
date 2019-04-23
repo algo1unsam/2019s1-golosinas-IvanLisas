@@ -3,7 +3,7 @@ object bombon {
 	var peso = 15
 	method precio() { return 5 }
 	method peso() { return peso }
-	method gusto() { return "frutilla" }
+	method gusto() { return frutilla }
 	method libreGluten() { return true }
 	
 	method mordisco() {
@@ -16,7 +16,7 @@ object alfajor {
 	var peso = 300
 	method precio() { return 12 }
 	method peso() { return peso }
-	method gusto() { return "chocolate" }
+	method gusto() { return chocolate }
 	method libreGluten() { return false}
 	
 	method mordisco(){
@@ -29,7 +29,7 @@ object caramelo {
 	var peso = 5
 	method precio() { return 1 }
 	method peso() { return peso }
-	method gusto() { return "frutilla" }
+	method gusto() { return frutilla }
 	method libreGluten() { return true}
 	
 	method mordisco(){
@@ -42,7 +42,7 @@ object chupetin {
 	var peso = 7
 	method precio() { return 2 }
 	method peso() { return peso }
-	method gusto() { return "naranja" }
+	method gusto() { return naranja }
 	method libreGluten() { return true}
 	
 	method mordisco(){
@@ -56,7 +56,7 @@ object oblea {
 	var peso = 200
 	method precio() { return 5 }
 	method peso() { return peso }
-	method gusto() { return "vanilla" }
+	method gusto() { return vanilla }
 	method libreGluten() { return false}
 	
 	method mordisco(){
@@ -75,7 +75,7 @@ object chocolatin {
 	}
 	
 	method peso() { return pesoActual }
-	method gusto() { return "chocolate" }
+	method gusto() { return chocolate }
 	method libreGluten() { return false}
 	
 	method precio(){
@@ -131,4 +131,9 @@ object chocolate{
 object naranja{
 	method siguiente() = frutilla
 }
+
+object vanilla{
+
+}
+
 

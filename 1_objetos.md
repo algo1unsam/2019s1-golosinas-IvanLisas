@@ -67,11 +67,23 @@ Crear el objeto `mariano` con la capacidad de comprar golosinas, hacer cosas con
 * `golosinaMasCara()` : devuelve la golosina mas cara en la bolsa de golosinas compradas.
 * `pesoGolosinas()` : devuelve el peso de la bolsa de golosinas compradas, o sea, la suma del peso de cada golosina. 
 
-Además, se deben contemplar dos situaciones relacionadas con _Juliana_, la pareja actual de Mariano. 
-* Juliana critica a Mariano, pero siempre que puede le quita alguna golosina si es de las que a ella le gusta, y se enoja por las que faltan. <br>
-Lograr que a Mariano se le pueda preguntar `golosinasFaltantes(golosinasDeseadas)` , donde `golosinasDeseadas` es una colección de golosinas. Debe devolver las golosinas que están entre las `golosinasDeseadas`, y que Mariano **no** compró.
+-----------------------------------------------------------------------------
+
+* Además, se deben contemplar dos situaciones relacionadas
+ con _Juliana_, la pareja actual de Mariano. 
+ 
+* Juliana critica a Mariano, pero siempre que puede le quita alguna golosina
+ si es de las que a ella le gusta, y se enoja por las que faltan. <br>
+ Lograr que a Mariano se le pueda preguntar
+ `golosinasFaltantes(golosinasDeseadas)` , donde `golosinasDeseadas`
+ es una colección de golosinas. Debe devolver las golosinas que están
+ entre las `golosinasDeseadas`, y que Mariano **no** compró.
+   
 * A veces Juliana tiene antojos por gustos gustos especiales. <br> 
-Lograr que a Mariano se le pueda preguntar `gustosFaltantes(gustosDeseados)`, que es una consulta similar a la anterior, pero donde `gustosDeseados`  es una colección de _gustos_. <br>
-Debe devolver los gustos que están entre los `gustosDeseados`, y que no están cubiertos por ninguna golosina de las que tiene Mariano.
+ Lograr que a Mariano se le pueda preguntar `gustosFaltantes(gustosDeseados)`,
+ que es una consulta similar a la anterior, pero donde `gustosDeseados` 
+ es una colección de _gustos_. <br>
+ Debe devolver los gustos que están entre los `gustosDeseados`,
+ y que no están cubiertos por ninguna golosina de las que tiene Mariano.
 
 

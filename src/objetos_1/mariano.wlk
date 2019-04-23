@@ -4,7 +4,9 @@ object mariano {
 	// para este objeto no damos pistas
 	// definimos algunos métodos para que compile el test
 	
-	var golosinas = #{}
+	var golosinas = []
+	
+	method golosinas()=golosinas
 	
 	method comprar(golosina) {
 		golosinas.add(golosina)
@@ -49,5 +51,15 @@ object mariano {
 	method pesoGolosinas(){
 		return golosinas.sum{ golosina=>golosina.peso() }	
 	}
+	
+	method golosinasFaltantes(golosinasDeseadas){
+		return golosinasDeseadas.difference(golosinas)
+	}
+	
+	method gustosFaltantes(golosinasDeseadas){
+		return golosinasDeseadas.difference(golosinas.map{golosina=>golosina.gusto()})
+	}
+	
+	
 }
 
